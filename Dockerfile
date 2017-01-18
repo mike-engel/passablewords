@@ -1,4 +1,9 @@
 FROM swiftdocker/swift
+MAINTAINER mike@mike-engel.com
+
+LABEL name="sec-check"
+LABEL description="Check your user's passwords against the 1,000,000 most common passwords"
+LABEL version="1.0"
 
 ENV APP_DIR=/usr/src/sec-check
 

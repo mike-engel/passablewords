@@ -5,8 +5,147 @@
   <meta name="description" content="A tiny api to let you check if a password is among the most commonly used">
 
   <title>sec-check</title>
+
+  <style>
+  * { box-sizing: border-box; }
+
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  body {
+    background-color: #FFF;
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    padding-top: 1px;
+  }
+
+  main {
+    margin: 5vw auto 0 auto;
+    width: 90vw;
+  }
+
+  code {
+    border-radius: 3px;
+    font-weight: 600;
+  }
+
+  a {
+    color: #000;
+  }
+
+  p {
+    margin: 0;
+    max-width: 40em;
+  }
+
+  p + * {
+    margin-top: 1em;
+  }
+
+  a:hover,
+  a:active {
+    color: #000;
+  }
+
+  .h1,
+  .h2,
+  .h3 {
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    margin: 0 0 1em; 0;
+  }
+
+  .h2,
+  .h3 {
+    font-weight: 500;
+  }
+
+  .h1 {
+    border-top: 6px solid #000;
+    font-size: 3rem;
+    padding: 0.4em 0 0 0;
+  }
+
+  .h2 {
+    font-size: 2.25rem;
+  }
+
+  .h3 {
+    font-size: 1.5rem;
+  }
+
+  .h4 {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+  }
+
+  footer {
+    font-size: 0.618rem;
+    margin: 0.5em 0;
+  }
+
+  @media (min-width: 768px) {
+    main {
+      margin-top: 2vw;
+    }
+  }
+  </style>
 </head>
 <body>
-  <h1>Hey from sec-check</h1>
+  <main>
+    <h1 class="h1">passablewords</h1>
+    <h2 class="h2">Is your password unique enough?</h2>
+    <div class="input">
+      <form data-hook="form" role="form">
+        <label for="password">Your password</label>
+        <input
+          data-hook="input"
+          id="password"
+          name="password"
+          placeholder="your password"
+          type="password"
+        />
+        <button type="submit">Check yourself</button>
+      </form>
+    </div>
+    <p>In a world filled with data breaches and IoT botnets, it's important to make sure you're adequately protecting yourself.</p>
+    <p>While not perfect, making sure you have a unique password helps against dictionary attacks. <code>passablewords</code> checks your (or your user's) passwords against one million of the most common passwords.</p>
+    <p>The full source (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0)</a> is on <a href="https://github.com/mike-engel/sec-check/tree/master/LICENSE.md">Github</a>. You're free to use this hosted version, but you can also run and deploy it yourself very easily with docker.</p>
+    <footer>&copy; 2017 &ndash; Mike Engel</footer>
+  </main>
+  <script>
+    var form = document.querySelector('[data-hook="form"]')
+    var input = document.querySelector('[data-hook="input"]')
+
+    function sendRequest (evt) {
+      evt.preventDefault()
+      evt.stopPropagation()
+
+      var password = evt.target.value
+      var req = new XMLHttpRequest()
+      var data = { password: input.value }
+
+      req.addEventListener('load', handleResponse)
+
+      req.open('POST', '/', true)
+
+      req.setRequestHeader('Content-Type', 'application/json')
+
+      req.send(JSON.stringify(data))
+    }
+
+    function handleResponse (data) {
+      console.log(data)
+    }
+
+    form.addEventListener('submit', sendRequest)
+  </script>
 </body>
 </html>
