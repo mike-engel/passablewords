@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+
+.build/
+.git/
+Packages/
+
+**/xcuserdata/
+
+*.xcworkspace
+*.log
+*.orig
