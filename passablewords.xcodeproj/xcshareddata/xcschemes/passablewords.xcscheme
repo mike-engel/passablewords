@@ -17,7 +17,7 @@
                BlueprintIdentifier = "OBJ_774"
                BuildableName = "PerfectLib.framework"
                BlueprintName = "PerfectLib"
-               ReferencedContainer = "container:sec-check.xcodeproj">
+               ReferencedContainer = "container:passablewords.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "OBJ_790"
                BuildableName = "COpenSSL.framework"
                BlueprintName = "COpenSSL"
-               ReferencedContainer = "container:sec-check.xcodeproj">
+               ReferencedContainer = "container:passablewords.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "OBJ_1478"
                BuildableName = "PerfectThread.framework"
                BlueprintName = "PerfectThread"
-               ReferencedContainer = "container:sec-check.xcodeproj">
+               ReferencedContainer = "container:passablewords.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -59,7 +59,7 @@
                BlueprintIdentifier = "OBJ_1486"
                BuildableName = "PerfectNet.framework"
                BlueprintName = "PerfectNet"
-               ReferencedContainer = "container:sec-check.xcodeproj">
+               ReferencedContainer = "container:passablewords.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -73,7 +73,7 @@
                BlueprintIdentifier = "OBJ_1501"
                BuildableName = "PerfectHTTP.framework"
                BlueprintName = "PerfectHTTP"
-               ReferencedContainer = "container:sec-check.xcodeproj">
+               ReferencedContainer = "container:passablewords.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -87,7 +87,7 @@
                BlueprintIdentifier = "OBJ_1524"
                BuildableName = "CHTTPParser.framework"
                BlueprintName = "CHTTPParser"
-               ReferencedContainer = "container:sec-check.xcodeproj">
+               ReferencedContainer = "container:passablewords.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -101,7 +101,7 @@
                BlueprintIdentifier = "OBJ_1542"
                BuildableName = "CZlib.framework"
                BlueprintName = "CZlib"
-               ReferencedContainer = "container:sec-check.xcodeproj">
+               ReferencedContainer = "container:passablewords.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -115,7 +115,7 @@
                BlueprintIdentifier = "OBJ_1574"
                BuildableName = "PerfectHTTPServer.framework"
                BlueprintName = "PerfectHTTPServer"
-               ReferencedContainer = "container:sec-check.xcodeproj">
+               ReferencedContainer = "container:passablewords.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -127,9 +127,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "OBJ_1602"
-               BuildableName = "sec_check.framework"
-               BlueprintName = "sec-check"
-               ReferencedContainer = "container:sec-check.xcodeproj">
+               BuildableName = "passablewords"
+               BlueprintName = "passablewords"
+               ReferencedContainer = "container:passablewords.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -145,9 +145,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "OBJ_1625"
-               BuildableName = "sec-checkTests.xctest"
-               BlueprintName = "sec-checkTests"
-               ReferencedContainer = "container:sec-check.xcodeproj">
+               BuildableName = "passablewordsTests.xctest"
+               BlueprintName = "passablewordsTests"
+               ReferencedContainer = "container:passablewords.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -170,7 +170,7 @@
             BlueprintIdentifier = "OBJ_774"
             BuildableName = "PerfectLib.framework"
             BlueprintName = "PerfectLib"
-            ReferencedContainer = "container:sec-check.xcodeproj">
+            ReferencedContainer = "container:passablewords.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>

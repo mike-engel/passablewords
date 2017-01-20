@@ -556,7 +556,7 @@
 		OBJ_1614 /* CHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_769 /* CHTTPParser.framework */; };
 		OBJ_1615 /* CZlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_770 /* CZlib.framework */; };
 		OBJ_1616 /* PerfectHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_771 /* PerfectHTTPServer.framework */; };
-		OBJ_1630 /* sec_checkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_762 /* sec_checkTests.swift */; };
+		OBJ_1630 /* passablewordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_762 /* passablewordsTests.swift */; };
 		OBJ_1632 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_764 /* PerfectLib.framework */; };
 		OBJ_1633 /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_765 /* COpenSSL.framework */; };
 		OBJ_1634 /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_766 /* PerfectThread.framework */; };
@@ -565,7 +565,6 @@
 		OBJ_1637 /* CHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_769 /* CHTTPParser.framework */; };
 		OBJ_1638 /* CZlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_770 /* CZlib.framework */; };
 		OBJ_1639 /* PerfectHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_771 /* PerfectHTTPServer.framework */; };
-		OBJ_1640 /* sec_check.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_772 /* sec_check.framework */; };
 		OBJ_779 /* Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Bytes.swift */; };
 		OBJ_780 /* Dir.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Dir.swift */; };
 		OBJ_781 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* File.swift */; };
@@ -783,285 +782,285 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		27663ED11E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F4C1E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_790;
 			remoteInfo = COpenSSL;
 		};
-		27663ED21E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F4D1E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1478;
 			remoteInfo = PerfectThread;
 		};
-		27663ED31E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F4E1E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_774;
 			remoteInfo = PerfectLib;
 		};
-		27663ED41E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F4F1E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_790;
 			remoteInfo = COpenSSL;
 		};
-		27663ED51E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F501E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1478;
 			remoteInfo = PerfectThread;
 		};
-		27663ED61E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F511E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1486;
 			remoteInfo = PerfectNet;
 		};
-		27663ED71E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F521E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_774;
 			remoteInfo = PerfectLib;
 		};
-		27663ED81E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F531E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_790;
 			remoteInfo = COpenSSL;
 		};
-		27663ED91E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F541E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1478;
 			remoteInfo = PerfectThread;
 		};
-		27663EDA1E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F551E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1486;
 			remoteInfo = PerfectNet;
 		};
-		27663EDB1E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F561E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1501;
 			remoteInfo = PerfectHTTP;
 		};
-		27663EDC1E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F571E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_774;
 			remoteInfo = PerfectLib;
 		};
-		27663EDD1E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F581E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_790;
 			remoteInfo = COpenSSL;
 		};
-		27663EDE1E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F591E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1478;
 			remoteInfo = PerfectThread;
 		};
-		27663EDF1E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F5A1E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1486;
 			remoteInfo = PerfectNet;
 		};
-		27663EE01E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F5B1E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1501;
 			remoteInfo = PerfectHTTP;
 		};
-		27663EE11E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F5C1E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_774;
 			remoteInfo = PerfectLib;
 		};
-		27663EE21E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F5D1E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_790;
 			remoteInfo = COpenSSL;
 		};
-		27663EE31E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F5E1E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1478;
 			remoteInfo = PerfectThread;
 		};
-		27663EE41E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F5F1E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1486;
 			remoteInfo = PerfectNet;
 		};
-		27663EE51E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F601E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1501;
 			remoteInfo = PerfectHTTP;
 		};
-		27663EE61E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F611E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1524;
 			remoteInfo = CHTTPParser;
 		};
-		27663EE71E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F621E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1542;
 			remoteInfo = CZlib;
 		};
-		27663EE81E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F631E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_774;
 			remoteInfo = PerfectLib;
 		};
-		27663EE91E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F641E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_790;
 			remoteInfo = COpenSSL;
 		};
-		27663EEA1E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F651E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1478;
 			remoteInfo = PerfectThread;
 		};
-		27663EEB1E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F661E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1486;
 			remoteInfo = PerfectNet;
 		};
-		27663EEC1E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F671E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1501;
 			remoteInfo = PerfectHTTP;
 		};
-		27663EED1E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F681E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1524;
 			remoteInfo = CHTTPParser;
 		};
-		27663EEE1E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F691E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1542;
 			remoteInfo = CZlib;
 		};
-		27663EEF1E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F6A1E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1574;
 			remoteInfo = PerfectHTTPServer;
 		};
-		27663EF01E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F6B1E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_774;
 			remoteInfo = PerfectLib;
 		};
-		27663EF11E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F6C1E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_790;
 			remoteInfo = COpenSSL;
 		};
-		27663EF21E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F6D1E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1478;
 			remoteInfo = PerfectThread;
 		};
-		27663EF31E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F6E1E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1486;
 			remoteInfo = PerfectNet;
 		};
-		27663EF41E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F6F1E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1501;
 			remoteInfo = PerfectHTTP;
 		};
-		27663EF51E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F701E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1524;
 			remoteInfo = CHTTPParser;
 		};
-		27663EF61E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F711E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1542;
 			remoteInfo = CZlib;
 		};
-		27663EF71E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F721E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1574;
 			remoteInfo = PerfectHTTPServer;
 		};
-		27663EF81E2C53B90083A7B9 /* PBXContainerItemProxy */ = {
+		27FC7F731E31D0ED00DFDE21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1602;
-			remoteInfo = "sec-check";
+			remoteInfo = passablewords;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -1729,7 +1728,7 @@
 		OBJ_70 /* bf_ofb64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bf_ofb64.c; sourceTree = "<group>"; };
 		OBJ_700 /* xts128.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = xts128.c; sourceTree = "<group>"; };
 		OBJ_702 /* openssl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = openssl.h; sourceTree = "<group>"; };
-		OBJ_703 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "/Users/mike/projects/sec-check/Packages/COpenSSL-2.0.2/COpenSSL/include/module.modulemap"; sourceTree = "<group>"; };
+		OBJ_703 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "/Users/mike/projects/passablewords/Packages/COpenSSL-2.0.2/COpenSSL/include/module.modulemap"; sourceTree = "<group>"; };
 		OBJ_705 /* Threading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Threading.swift; sourceTree = "<group>"; };
 		OBJ_706 /* ThreadQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadQueue.swift; sourceTree = "<group>"; };
 		OBJ_708 /* Net.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Net.swift; sourceTree = "<group>"; };
@@ -1750,7 +1749,7 @@
 		OBJ_722 /* StaticFileHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticFileHandler.swift; sourceTree = "<group>"; };
 		OBJ_724 /* http_parser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = http_parser.c; sourceTree = "<group>"; };
 		OBJ_726 /* http_parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = http_parser.h; sourceTree = "<group>"; };
-		OBJ_727 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "/Users/mike/projects/sec-check/Packages/PerfectHTTPServer-2.1.10/Sources/CHTTPParser/include/module.modulemap"; sourceTree = "<group>"; };
+		OBJ_727 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "/Users/mike/projects/passablewords/Packages/PerfectHTTPServer-2.1.10/Sources/CHTTPParser/include/module.modulemap"; sourceTree = "<group>"; };
 		OBJ_729 /* adler32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = adler32.c; sourceTree = "<group>"; };
 		OBJ_73 /* bio_b64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_b64.c; sourceTree = "<group>"; };
 		OBJ_730 /* compress.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = compress.c; sourceTree = "<group>"; };
@@ -1771,7 +1770,7 @@
 		OBJ_745 /* czlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = czlib.h; sourceTree = "<group>"; };
 		OBJ_746 /* inflate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inflate.h; sourceTree = "<group>"; };
 		OBJ_747 /* inftrees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inftrees.h; sourceTree = "<group>"; };
-		OBJ_748 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "/Users/mike/projects/sec-check/Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/include/module.modulemap"; sourceTree = "<group>"; };
+		OBJ_748 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "/Users/mike/projects/passablewords/Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/include/module.modulemap"; sourceTree = "<group>"; };
 		OBJ_75 /* bio_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_enc.c; sourceTree = "<group>"; };
 		OBJ_750 /* HPACK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPACK.swift; sourceTree = "<group>"; };
 		OBJ_751 /* HTTP11Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP11Request.swift; sourceTree = "<group>"; };
@@ -1783,7 +1782,7 @@
 		OBJ_757 /* HTTPServerExConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPServerExConfig.swift; sourceTree = "<group>"; };
 		OBJ_759 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_76 /* bio_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_err.c; sourceTree = "<group>"; };
-		OBJ_762 /* sec_checkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sec_checkTests.swift; sourceTree = "<group>"; };
+		OBJ_762 /* passablewordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passablewordsTests.swift; sourceTree = "<group>"; };
 		OBJ_764 /* PerfectLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_765 /* COpenSSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = COpenSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_766 /* PerfectThread.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectThread.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1793,8 +1792,8 @@
 		OBJ_77 /* bio_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_lib.c; sourceTree = "<group>"; };
 		OBJ_770 /* CZlib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CZlib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_771 /* PerfectHTTPServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectHTTPServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_772 /* sec_check.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = sec_check.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_773 /* sec_checkTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; name = sec_checkTests.xctest; path = "sec-checkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_772 /* passablewords */ = {isa = PBXFileReference; lastKnownFileType = text; path = passablewords; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_773 /* passablewordsTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = passablewordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_78 /* bio_md.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_md.c; sourceTree = "<group>"; };
 		OBJ_79 /* bio_ndef.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_ndef.c; sourceTree = "<group>"; };
 		OBJ_80 /* bio_ok.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_ok.c; sourceTree = "<group>"; };
@@ -1920,7 +1919,6 @@
 				OBJ_1637 /* CHTTPParser.framework in Frameworks */,
 				OBJ_1638 /* CZlib.framework in Frameworks */,
 				OBJ_1639 /* PerfectHTTPServer.framework in Frameworks */,
-				OBJ_1640 /* sec_check.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2624,7 +2622,7 @@
 			path = "Packages/COpenSSL-2.0.2/COpenSSL";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_5 = {
+		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -2632,6 +2630,7 @@
 				OBJ_760 /* Tests */,
 				OBJ_763 /* Products */,
 			);
+			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -2645,7 +2644,7 @@
 				OBJ_723 /* CHTTPParser */,
 				OBJ_728 /* CZlib */,
 				OBJ_749 /* PerfectHTTPServer */,
-				OBJ_758 /* sec-check */,
+				OBJ_758 /* passablewords */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -2769,30 +2768,30 @@
 			path = "Packages/PerfectHTTPServer-2.1.10/Sources/PerfectHTTPServer";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_758 /* sec-check */ = {
+		OBJ_758 /* passablewords */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_759 /* main.swift */,
 			);
-			name = "sec-check";
+			name = passablewords;
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_760 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_761 /* sec-checkTests */,
+				OBJ_761 /* passablewordsTests */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		OBJ_761 /* sec-checkTests */ = {
+		OBJ_761 /* passablewordsTests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_762 /* sec_checkTests.swift */,
+				OBJ_762 /* passablewordsTests.swift */,
 			);
-			name = "sec-checkTests";
-			path = "Tests/sec-checkTests";
+			name = passablewordsTests;
+			path = Tests/passablewordsTests;
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_763 /* Products */ = {
@@ -2806,8 +2805,8 @@
 				OBJ_769 /* CHTTPParser.framework */,
 				OBJ_770 /* CZlib.framework */,
 				OBJ_771 /* PerfectHTTPServer.framework */,
-				OBJ_772 /* sec_check.framework */,
-				OBJ_773 /* sec_checkTests.xctest */,
+				OBJ_772 /* passablewords */,
+				OBJ_773 /* passablewordsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -2954,9 +2953,9 @@
 			productReference = OBJ_771 /* PerfectHTTPServer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_1602 /* sec-check */ = {
+		OBJ_1602 /* passablewords */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_1603 /* Build configuration list for PBXNativeTarget "sec-check" */;
+			buildConfigurationList = OBJ_1603 /* Build configuration list for PBXNativeTarget "passablewords" */;
 			buildPhases = (
 				OBJ_1606 /* Sources */,
 				OBJ_1608 /* Frameworks */,
@@ -2973,14 +2972,14 @@
 				OBJ_1623 /* PBXTargetDependency */,
 				OBJ_1624 /* PBXTargetDependency */,
 			);
-			name = "sec-check";
-			productName = sec_check;
-			productReference = OBJ_772 /* sec_check.framework */;
-			productType = "com.apple.product-type.framework";
+			name = passablewords;
+			productName = passablewords;
+			productReference = OBJ_772 /* passablewords */;
+			productType = "com.apple.product-type.tool";
 		};
-		OBJ_1625 /* sec-checkTests */ = {
+		OBJ_1625 /* passablewordsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_1626 /* Build configuration list for PBXNativeTarget "sec-checkTests" */;
+			buildConfigurationList = OBJ_1626 /* Build configuration list for PBXNativeTarget "passablewordsTests" */;
 			buildPhases = (
 				OBJ_1629 /* Sources */,
 				OBJ_1631 /* Frameworks */,
@@ -2988,6 +2987,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				OBJ_1640 /* PBXTargetDependency */,
 				OBJ_1641 /* PBXTargetDependency */,
 				OBJ_1642 /* PBXTargetDependency */,
 				OBJ_1643 /* PBXTargetDependency */,
@@ -2996,11 +2996,10 @@
 				OBJ_1646 /* PBXTargetDependency */,
 				OBJ_1647 /* PBXTargetDependency */,
 				OBJ_1648 /* PBXTargetDependency */,
-				OBJ_1649 /* PBXTargetDependency */,
 			);
-			name = "sec-checkTests";
-			productName = sec_checkTests;
-			productReference = OBJ_773 /* sec_checkTests.xctest */;
+			name = passablewordsTests;
+			productName = passablewordsTests;
+			productReference = OBJ_773 /* passablewordsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		OBJ_774 /* PerfectLib */ = {
@@ -3044,14 +3043,14 @@
 			attributes = {
 				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "sec-check" */;
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "passablewords" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5;
+			mainGroup = OBJ_5 /*  */;
 			productRefGroup = OBJ_763 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -3064,8 +3063,8 @@
 				OBJ_1524 /* CHTTPParser */,
 				OBJ_1542 /* CZlib */,
 				OBJ_1574 /* PerfectHTTPServer */,
-				OBJ_1602 /* sec-check */,
-				OBJ_1625 /* sec-checkTests */,
+				OBJ_1602 /* passablewords */,
+				OBJ_1625 /* passablewordsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -3195,7 +3194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_1630 /* sec_checkTests.swift in Sources */,
+				OBJ_1630 /* passablewordsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3910,202 +3909,202 @@
 		OBJ_1499 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_790 /* COpenSSL */;
-			targetProxy = 27663ED11E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F4C1E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1500 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1478 /* PerfectThread */;
-			targetProxy = 27663ED21E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F4D1E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1520 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_774 /* PerfectLib */;
-			targetProxy = 27663ED31E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F4E1E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1521 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_790 /* COpenSSL */;
-			targetProxy = 27663ED41E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F4F1E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1522 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1478 /* PerfectThread */;
-			targetProxy = 27663ED51E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F501E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1523 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1486 /* PerfectNet */;
-			targetProxy = 27663ED61E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F511E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1537 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_774 /* PerfectLib */;
-			targetProxy = 27663ED71E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F521E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1538 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_790 /* COpenSSL */;
-			targetProxy = 27663ED81E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F531E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1539 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1478 /* PerfectThread */;
-			targetProxy = 27663ED91E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F541E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1540 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1486 /* PerfectNet */;
-			targetProxy = 27663EDA1E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F551E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1541 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1501 /* PerfectHTTP */;
-			targetProxy = 27663EDB1E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F561E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1569 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_774 /* PerfectLib */;
-			targetProxy = 27663EDC1E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F571E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1570 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_790 /* COpenSSL */;
-			targetProxy = 27663EDD1E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F581E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1571 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1478 /* PerfectThread */;
-			targetProxy = 27663EDE1E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F591E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1572 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1486 /* PerfectNet */;
-			targetProxy = 27663EDF1E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F5A1E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1573 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1501 /* PerfectHTTP */;
-			targetProxy = 27663EE01E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F5B1E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1595 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_774 /* PerfectLib */;
-			targetProxy = 27663EE11E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F5C1E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1596 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_790 /* COpenSSL */;
-			targetProxy = 27663EE21E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F5D1E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1597 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1478 /* PerfectThread */;
-			targetProxy = 27663EE31E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F5E1E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1598 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1486 /* PerfectNet */;
-			targetProxy = 27663EE41E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F5F1E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1599 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1501 /* PerfectHTTP */;
-			targetProxy = 27663EE51E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F601E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1600 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1524 /* CHTTPParser */;
-			targetProxy = 27663EE61E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F611E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1601 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1542 /* CZlib */;
-			targetProxy = 27663EE71E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F621E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1617 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_774 /* PerfectLib */;
-			targetProxy = 27663EE81E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F631E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1618 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_790 /* COpenSSL */;
-			targetProxy = 27663EE91E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F641E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1619 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1478 /* PerfectThread */;
-			targetProxy = 27663EEA1E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F651E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1620 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1486 /* PerfectNet */;
-			targetProxy = 27663EEB1E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F661E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1621 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1501 /* PerfectHTTP */;
-			targetProxy = 27663EEC1E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F671E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1622 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1524 /* CHTTPParser */;
-			targetProxy = 27663EED1E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F681E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1623 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1542 /* CZlib */;
-			targetProxy = 27663EEE1E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F691E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1624 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1574 /* PerfectHTTPServer */;
-			targetProxy = 27663EEF1E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			targetProxy = 27FC7F6A1E31D0ED00DFDE21 /* PBXContainerItemProxy */;
+		};
+		OBJ_1640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_774 /* PerfectLib */;
+			targetProxy = 27FC7F6B1E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1641 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_774 /* PerfectLib */;
-			targetProxy = 27663EF01E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			target = OBJ_790 /* COpenSSL */;
+			targetProxy = 27FC7F6C1E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1642 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_790 /* COpenSSL */;
-			targetProxy = 27663EF11E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			target = OBJ_1478 /* PerfectThread */;
+			targetProxy = 27FC7F6D1E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1643 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_1478 /* PerfectThread */;
-			targetProxy = 27663EF21E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			target = OBJ_1486 /* PerfectNet */;
+			targetProxy = 27FC7F6E1E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1644 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_1486 /* PerfectNet */;
-			targetProxy = 27663EF31E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			target = OBJ_1501 /* PerfectHTTP */;
+			targetProxy = 27FC7F6F1E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1645 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_1501 /* PerfectHTTP */;
-			targetProxy = 27663EF41E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			target = OBJ_1524 /* CHTTPParser */;
+			targetProxy = 27FC7F701E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1646 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_1524 /* CHTTPParser */;
-			targetProxy = 27663EF51E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			target = OBJ_1542 /* CZlib */;
+			targetProxy = 27FC7F711E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1647 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_1542 /* CZlib */;
-			targetProxy = 27663EF61E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			target = OBJ_1574 /* PerfectHTTPServer */;
+			targetProxy = 27FC7F721E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 		OBJ_1648 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_1574 /* PerfectHTTPServer */;
-			targetProxy = 27663EF71E2C53B90083A7B9 /* PBXContainerItemProxy */;
-		};
-		OBJ_1649 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = OBJ_1602 /* sec-check */;
-			targetProxy = 27663EF81E2C53B90083A7B9 /* PBXContainerItemProxy */;
+			target = OBJ_1602 /* passablewords */;
+			targetProxy = 27FC7F731E31D0ED00DFDE21 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -4119,7 +4118,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "sec-check.xcodeproj/PerfectThread_Info.plist";
+				INFOPLIST_FILE = passablewords.xcodeproj/PerfectThread_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -4139,7 +4138,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "sec-check.xcodeproj/PerfectThread_Info.plist";
+				INFOPLIST_FILE = passablewords.xcodeproj/PerfectThread_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -4162,7 +4161,7 @@
 					"$(inherited)",
 					"Packages/COpenSSL-2.0.2/COpenSSL/include",
 				);
-				INFOPLIST_FILE = "sec-check.xcodeproj/PerfectNet_Info.plist";
+				INFOPLIST_FILE = passablewords.xcodeproj/PerfectNet_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_TEMP_DIR)/SymlinkLibs/";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -4186,7 +4185,7 @@
 					"$(inherited)",
 					"Packages/COpenSSL-2.0.2/COpenSSL/include",
 				);
-				INFOPLIST_FILE = "sec-check.xcodeproj/PerfectNet_Info.plist";
+				INFOPLIST_FILE = passablewords.xcodeproj/PerfectNet_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_TEMP_DIR)/SymlinkLibs/";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -4210,7 +4209,7 @@
 					"$(inherited)",
 					"Packages/COpenSSL-2.0.2/COpenSSL/include",
 				);
-				INFOPLIST_FILE = "sec-check.xcodeproj/PerfectHTTP_Info.plist";
+				INFOPLIST_FILE = passablewords.xcodeproj/PerfectHTTP_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_TEMP_DIR)/SymlinkLibs/";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -4234,7 +4233,7 @@
 					"$(inherited)",
 					"Packages/COpenSSL-2.0.2/COpenSSL/include",
 				);
-				INFOPLIST_FILE = "sec-check.xcodeproj/PerfectHTTP_Info.plist";
+				INFOPLIST_FILE = passablewords.xcodeproj/PerfectHTTP_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_TEMP_DIR)/SymlinkLibs/";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -4260,7 +4259,7 @@
 					"Packages/PerfectHTTPServer-2.1.10/Sources/CHTTPParser/include",
 					"Packages/COpenSSL-2.0.2/COpenSSL/include",
 				);
-				INFOPLIST_FILE = "sec-check.xcodeproj/CHTTPParser_Info.plist";
+				INFOPLIST_FILE = passablewords.xcodeproj/CHTTPParser_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_TEMP_DIR)/SymlinkLibs/";
 				MODULEMAP_FILE = "Packages/PerfectHTTPServer-2.1.10/Sources/CHTTPParser/include/module.modulemap";
@@ -4287,7 +4286,7 @@
 					"Packages/PerfectHTTPServer-2.1.10/Sources/CHTTPParser/include",
 					"Packages/COpenSSL-2.0.2/COpenSSL/include",
 				);
-				INFOPLIST_FILE = "sec-check.xcodeproj/CHTTPParser_Info.plist";
+				INFOPLIST_FILE = passablewords.xcodeproj/CHTTPParser_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_TEMP_DIR)/SymlinkLibs/";
 				MODULEMAP_FILE = "Packages/PerfectHTTPServer-2.1.10/Sources/CHTTPParser/include/module.modulemap";
@@ -4314,7 +4313,7 @@
 					"Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/include",
 					"Packages/COpenSSL-2.0.2/COpenSSL/include",
 				);
-				INFOPLIST_FILE = "sec-check.xcodeproj/CZlib_Info.plist";
+				INFOPLIST_FILE = passablewords.xcodeproj/CZlib_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_TEMP_DIR)/SymlinkLibs/";
 				MODULEMAP_FILE = "Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/include/module.modulemap";
@@ -4341,7 +4340,7 @@
 					"Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/include",
 					"Packages/COpenSSL-2.0.2/COpenSSL/include",
 				);
-				INFOPLIST_FILE = "sec-check.xcodeproj/CZlib_Info.plist";
+				INFOPLIST_FILE = passablewords.xcodeproj/CZlib_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_TEMP_DIR)/SymlinkLibs/";
 				MODULEMAP_FILE = "Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/include/module.modulemap";
@@ -4368,7 +4367,7 @@
 					"Packages/PerfectHTTPServer-2.1.10/Sources/CHTTPParser/include",
 					"Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/include",
 				);
-				INFOPLIST_FILE = "sec-check.xcodeproj/PerfectHTTPServer_Info.plist";
+				INFOPLIST_FILE = passablewords.xcodeproj/PerfectHTTPServer_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_TEMP_DIR)/SymlinkLibs/";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -4394,7 +4393,7 @@
 					"Packages/PerfectHTTPServer-2.1.10/Sources/CHTTPParser/include",
 					"Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/include",
 				);
-				INFOPLIST_FILE = "sec-check.xcodeproj/PerfectHTTPServer_Info.plist";
+				INFOPLIST_FILE = passablewords.xcodeproj/PerfectHTTPServer_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_TEMP_DIR)/SymlinkLibs/";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -4409,7 +4408,6 @@
 		OBJ_1604 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -4420,22 +4418,20 @@
 					"Packages/PerfectHTTPServer-2.1.10/Sources/CHTTPParser/include",
 					"Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/include",
 				);
-				INFOPLIST_FILE = "sec-check.xcodeproj/sec_check_Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				INFOPLIST_FILE = passablewords.xcodeproj/passablewords_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_TEMP_DIR)/SymlinkLibs/";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = sec_check;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				TARGET_NAME = "sec-check";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				TARGET_NAME = passablewords;
 			};
 			name = Debug;
 		};
 		OBJ_1605 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -4446,15 +4442,14 @@
 					"Packages/PerfectHTTPServer-2.1.10/Sources/CHTTPParser/include",
 					"Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/include",
 				);
-				INFOPLIST_FILE = "sec-check.xcodeproj/sec_check_Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				INFOPLIST_FILE = passablewords.xcodeproj/passablewords_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_TEMP_DIR)/SymlinkLibs/";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = sec_check;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				TARGET_NAME = "sec-check";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				TARGET_NAME = passablewords;
 			};
 			name = Release;
 		};
@@ -4472,12 +4467,12 @@
 					"Packages/PerfectHTTPServer-2.1.10/Sources/CHTTPParser/include",
 					"Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/include",
 				);
-				INFOPLIST_FILE = "sec-check.xcodeproj/sec_checkTests_Info.plist";
+				INFOPLIST_FILE = passablewords.xcodeproj/passablewordsTests_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_TEMP_DIR)/SymlinkLibs/";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				TARGET_NAME = "sec-checkTests";
+				TARGET_NAME = passablewordsTests;
 			};
 			name = Debug;
 		};
@@ -4495,12 +4490,12 @@
 					"Packages/PerfectHTTPServer-2.1.10/Sources/CHTTPParser/include",
 					"Packages/PerfectHTTPServer-2.1.10/Sources/CZlib/include",
 				);
-				INFOPLIST_FILE = "sec-check.xcodeproj/sec_checkTests_Info.plist";
+				INFOPLIST_FILE = passablewords.xcodeproj/passablewordsTests_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_TEMP_DIR)/SymlinkLibs/";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				TARGET_NAME = "sec-checkTests";
+				TARGET_NAME = passablewordsTests;
 			};
 			name = Release;
 		};
@@ -4555,7 +4550,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "sec-check.xcodeproj/PerfectLib_Info.plist";
+				INFOPLIST_FILE = passablewords.xcodeproj/PerfectLib_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -4575,7 +4570,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "sec-check.xcodeproj/PerfectLib_Info.plist";
+				INFOPLIST_FILE = passablewords.xcodeproj/PerfectLib_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -4599,7 +4594,7 @@
 					"$(inherited)",
 					"Packages/COpenSSL-2.0.2/COpenSSL/include",
 				);
-				INFOPLIST_FILE = "sec-check.xcodeproj/COpenSSL_Info.plist";
+				INFOPLIST_FILE = passablewords.xcodeproj/COpenSSL_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MODULEMAP_FILE = "Packages/COpenSSL-2.0.2/COpenSSL/include/module.modulemap";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -4624,7 +4619,7 @@
 					"$(inherited)",
 					"Packages/COpenSSL-2.0.2/COpenSSL/include",
 				);
-				INFOPLIST_FILE = "sec-check.xcodeproj/COpenSSL_Info.plist";
+				INFOPLIST_FILE = passablewords.xcodeproj/COpenSSL_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MODULEMAP_FILE = "Packages/COpenSSL-2.0.2/COpenSSL/include/module.modulemap";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -4693,7 +4688,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_1603 /* Build configuration list for PBXNativeTarget "sec-check" */ = {
+		OBJ_1603 /* Build configuration list for PBXNativeTarget "passablewords" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_1604 /* Debug */,
@@ -4702,7 +4697,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_1626 /* Build configuration list for PBXNativeTarget "sec-checkTests" */ = {
+		OBJ_1626 /* Build configuration list for PBXNativeTarget "passablewordsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_1627 /* Debug */,
@@ -4711,7 +4706,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_2 /* Build configuration list for PBXProject "sec-check" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "passablewords" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_3 /* Debug */,

@@ -10,3 +10,5 @@ Packages/
 *.xcworkspace
 *.log
 *.orig
+
+!.build/release/
