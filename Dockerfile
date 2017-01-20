@@ -1,10 +1,6 @@
 FROM swiftdocker/swift
 MAINTAINER mike@mike-engel.com
 
-LABEL name="passablewords"
-LABEL description="Is your password unique enough? Check against the million most common passwords"
-LABEL version="1.0"
-
 ENV APP_DIR=/usr/src/passablewords
 
 WORKDIR ${APP_DIR}
