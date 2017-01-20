@@ -31,13 +31,33 @@
     width: 90vw;
   }
 
-  code {
+  pre,
+  code,
+  dt {
     border-radius: 3px;
+    font-family: monospace;
     font-weight: 600;
+  }
+
+  dt + dd {
+    margin-top: 0.3em;
+  }
+
+  dd + dt {
+    margin-top: 1.5em;
+  }
+
+  dd {
+    margin-left: 0;
   }
 
   a {
     color: #000;
+  }
+
+  label {
+    position: absolute;
+    opacity: 0.0;
   }
 
   p {
@@ -49,6 +69,21 @@
     margin-top: 1em;
   }
 
+  p + .h1,
+  p + .h2,
+  p + .h3,
+  p + .h4,
+  pre + .h1,
+  pre + .h2,
+  pre + .h3,
+  pre + .h4,
+  dl + .h1,
+  dl + .h2,
+  dl + .h3,
+  dl + .h4 {
+    margin-top: 1.5em;
+  }
+
   a:hover,
   a:active {
     color: #000;
@@ -56,7 +91,8 @@
 
   .h1,
   .h2,
-  .h3 {
+  .h3,
+  .h4 {
     line-height: 1.1;
     letter-spacing: 0.03em;
     margin: 0 0 1em; 0;
@@ -67,9 +103,13 @@
     font-weight: 500;
   }
 
+  .h4 {
+    font-weight: 700;
+  }
+
   .h1 {
     border-top: 6px solid #000;
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding: 0.4em 0 0 0;
   }
 
@@ -82,18 +122,65 @@
   }
 
   .h4 {
-    font-size: 1.25rem;
-    text-transform: uppercase;
+    font-size: 1.0rem;
+  }
+
+  .password-check {
+    margin-bottom: 2.25em;
+    max-width: 40em;
+  }
+
+  .input,
+  .submit {
+    background-color: #FFF;
+    border: 1px solid #000;
+    border-radius: 3px;
+    color: #000;
+    display: block;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 1.0rem;
+    padding: 0.4em 0.5em;
+    width: 100%;
+  }
+
+  .submit {
+    border: none;
+    background-color: #000;
+    color: #FFF;
+    margin-top: 0.5em;
+
+    -webkit-appearance: none;
+    -moz-appearnce: none;
   }
 
   footer {
     font-size: 0.618rem;
-    margin: 0.5em 0;
+    margin: 2em 0 1em 0;
+  }
+
+  @media (min-width: 375px) {
+    .h1 {
+      font-size: 3rem;
+    }
   }
 
   @media (min-width: 768px) {
     main {
       margin-top: 2vw;
+    }
+
+    .input,
+    .submit {
+      display: inline-block;
+    }
+
+    .input {
+      margin-right: 10px;
+      width: 75%;
+    }
+
+    .submit {
+      width: calc(25% - 15px);
     }
   }
   </style>
@@ -102,31 +189,57 @@
   <main>
     <h1 class="h1">passablewords</h1>
     <h2 class="h2">Is your password unique enough?</h2>
-    <div class="input">
-      <form data-hook="form" role="form">
-        <label for="password">Your password</label>
-        <input
-          data-hook="input"
-          id="password"
-          name="password"
-          placeholder="your password"
-          type="password"
-        />
-        <button type="submit">Check yourself</button>
-      </form>
+    <div class="password-check">
+      <label for="password">Your password</label>
+      <input
+        class="input"
+        data-hook="input"
+        id="password"
+        name="password"
+        placeholder="your password"
+        type="password"
+      />
+      <button class="submit" data-hook="button" type="submit">
+        check yourself
+      </button>
     </div>
     <p>In a world filled with data breaches and IoT botnets, it's important to make sure you're adequately protecting yourself.</p>
     <p>While not perfect, making sure you have a unique password helps against dictionary attacks. <code>passablewords</code> checks your (or your user's) passwords against one million of the most common passwords.</p>
+    <h3 class="h3">API</h3>
+    <p>This is a public api, free for you to use in your projects. Nothing is logged on the server, and only HTTPS is allowed. The project is build with Swift, and is available as a <a href="https://hub.docker.com/r/passablewords">docker image</a>. For more info on self-hosting, visit the <a href="https://github.com/mike-engel/passablewords">Github readme</a>.</p>
+    <h4 class="h4">Making a request</h4>
+    <p>To use, make a <code>POST</code> request to <code>https://passablewords.now.sh/</code> with a JSON body similar to the one below.</p>
+    <pre>{
+  "password": "test1234"
+}</pre>
+    <p>Unless something went wrong server-side, you can expect a response with a 200 status and a JSON body. The body will contain an error key if one occured, and a message key explaining the response.</p>
+    <pre>{
+  "message": "That password seems fairly unique."
+}</pre>
+    <pre>{
+  "error": "ETOOCOMMON",
+  "message": "That password is too common."
+}</pre>
+    <h4 class="h4">Error handling</h4>
+    <p>There are 3 possible error codes that can be returned</p>
+    <dl>
+      <dt>EINTERNALSERVERERROR</dt>
+      <dd>Something went wrong when processing the request that wasn't anticipated</dd>
+      <dt>EINVALID</dt>
+      <dd>The request body sent over didn't match what was expected. See the message for more detail.</dd>
+      <dt>ETOOCOMMON</dt>
+      <dd>The password that was checked was found in the list. It's too common and shouldn't be allowed.</dd>
+    </dl>
+    <h4 class="h4">Project info</h4>
     <p>The full source (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0)</a> is on <a href="https://github.com/mike-engel/sec-check/tree/master/LICENSE.md">Github</a>. You're free to use this hosted version, but you can also run and deploy it yourself very easily with docker.</p>
     <footer>&copy; 2017 &ndash; Mike Engel</footer>
   </main>
   <script>
-    var form = document.querySelector('[data-hook="form"]')
+    var button = document.querySelector('[data-hook="button"]')
     var input = document.querySelector('[data-hook="input"]')
 
     function sendRequest (evt) {
-      evt.preventDefault()
-      evt.stopPropagation()
+      if (evt.key && evt.key !== 'Enter') { return }
 
       var password = evt.target.value
       var req = new XMLHttpRequest()
@@ -145,7 +258,8 @@
       console.log(data)
     }
 
-    form.addEventListener('submit', sendRequest)
+    input.addEventListener('', sendRequest)
+    button.addEventListener('click', sendRequest)
   </script>
 </body>
 </html>
