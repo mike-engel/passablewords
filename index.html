@@ -33,7 +33,8 @@
 
   pre,
   code,
-  dt {
+  dt,
+  .response {
     border-radius: 3px;
     font-family: monospace;
     font-weight: 600;
@@ -65,7 +66,8 @@
     max-width: 40em;
   }
 
-  p + * {
+  p + *,
+  * + p {
     margin-top: 1em;
   }
 
@@ -153,6 +155,19 @@
     -moz-appearnce: none;
   }
 
+  .submit:hover,
+  .submit:active {
+    cursor: pointer;
+  }
+
+  .error {
+    color: #85144B;
+  }
+
+  .success {
+    color: #3D9970;
+  }
+
   footer {
     font-size: 0.618rem;
     margin: 2em 0 1em 0;
@@ -202,6 +217,7 @@
       <button class="submit" data-hook="button" type="submit">
         check yourself
       </button>
+      <p class="response" data-hook="response"></p>
     </div>
     <p>In a world filled with data breaches and IoT botnets, it's important to make sure you're adequately protecting yourself.</p>
     <p>While not perfect, making sure you have a unique password helps against dictionary attacks. <code>passablewords</code> checks your (or your user's) passwords against one million of the most common passwords.</p>
@@ -214,11 +230,11 @@
 }</pre>
     <p>Unless something went wrong server-side, you can expect a response with a 200 status and a JSON body. The body will contain an error key if one occured, and a message key explaining the response.</p>
     <pre>{
-  "message": "That password seems fairly unique."
+  "message": "That password is not one of the most common million passwords. Nice."
 }</pre>
     <pre>{
   "error": "ETOOCOMMON",
-  "message": "That password is too common."
+  "message": "That password is too common. Choose a more unique password."
 }</pre>
     <h4 class="h4">Error handling</h4>
     <p>There are 3 possible error codes that can be returned</p>
@@ -237,6 +253,7 @@
   <script>
     var button = document.querySelector('[data-hook="button"]')
     var input = document.querySelector('[data-hook="input"]')
+    var responseContainer = document.querySelector('[data-hook="response"]')
 
     function sendRequest (evt) {
       if (evt.key && evt.key !== 'Enter') { return }
@@ -255,10 +272,20 @@
     }
 
     function handleResponse (data) {
-      console.log(data)
+      var response = JSON.parse(data.target.responseText)
+      var error = response.error
+      var message = response.message
+
+      responseContainer.innerText = message
+
+      if (error) {
+        responseContainer.setAttribute('class', 'response error')
+      } else {
+        responseContainer.setAttribute('class', 'response success')
+      }
     }
 
-    input.addEventListener('', sendRequest)
+    input.addEventListener('keyup', sendRequest)
     button.addEventListener('click', sendRequest)
   </script>
 </body>

@@ -9,7 +9,13 @@ ENV APP_DIR=/usr/src/passablewords
 
 WORKDIR ${APP_DIR}
 
-COPY .build Sources common-passwords.txt index.html Package.swift ${APP_DIR}/
+RUN apt-get update \
+  && apt-get install -y libssl-dev uuid-dev
+
+COPY . ${APP_DIR}/
+
+RUN swift build --clean \
+  && swift build -c release
 
 EXPOSE 3000
 

@@ -17,7 +17,7 @@ Making a request
 
 ## Making a request
 
-To use, make a `POST` request to `https://passablewords.now.sh/`` with a JSON body similar to the one below.
+To use, make a `POST` request to `https://passablewords.now.sh/` with a JSON body similar to the one below.
 
 ```json
 {
@@ -29,14 +29,14 @@ Unless something went wrong server-side, you can expect a response with a 200 st
 
 ```json
 {
-  "message": "That password seems fairly unique."
+  "message": "That password is not one of the most common million passwords. Nice."
 }
 ```
 
 ```json
 {
   "error": "ETOOCOMMON",
-  "message": "That password is too common."
+  "message": "That password is too common. Choose a more unique password."
 }
 ```
 

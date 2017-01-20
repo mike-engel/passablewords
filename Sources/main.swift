@@ -32,6 +32,8 @@ func formatBody (errorCode: String, message: String) -> [String:String] {
 
 func respond (response: HTTPResponse, status: HTTPResponseStatus, errorCode: String, message: String) {
   response.status = status
+  response.setHeader(.contentType, value: "application/json")
+
   do {
     try response.setBody(json: formatBody(errorCode: errorCode, message: message))
   } catch {
@@ -46,6 +48,11 @@ func respond (response: HTTPResponse, status: HTTPResponseStatus, errorCode: Str
   response.completed()
 
   return
+}
+
+func serveIndex (request: HTTPRequest, response: HTTPResponse) {
+  StaticFileHandler(documentRoot: server.documentRoot)
+    .handleRequest(request: request, response: response)
 }
 
 func searchPasswords (request: HTTPRequest, response: HTTPResponse) {
@@ -88,7 +95,7 @@ func searchPasswords (request: HTTPRequest, response: HTTPResponse) {
     response: response,
     status: .ok,
     errorCode: "",
-    message: "That password unique enough."
+    message: "That password is not one of the most common million passwords. Nice."
   )
 }
 
@@ -99,6 +106,7 @@ func notFound (request: HTTPRequest, response: HTTPResponse) {
   return
 }
 
+routes.add(method: .get, uri: "/", handler: serveIndex)
 routes.add(method: .post, uri: "/", handler: searchPasswords)
 routes.add(uri: "/**", handler: notFound)
 
